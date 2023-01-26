@@ -1,0 +1,14 @@
+{% load static %}
+
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Al Bacetto</title>
+    <link rel="stylesheet" href="{% static 'main/style.css' %}">
+</head>
+<body>
+    <div class="centered">
+        <a href="{% url 'menu:index' %}"> <img id="principal_logo" src="{% static 'main/images/albacetto-1.png' %}"></a>
+    </div>
+</body>
+</html>
